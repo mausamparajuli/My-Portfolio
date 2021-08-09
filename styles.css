@@ -1,1 +1,44 @@
+header {
+    width: 100%;
+    height: 60px;
+    background-color: blue;
+}
 
+.header {
+    position:absolute;
+    padding: 3px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+}
+
+ul {
+    width: auto;
+    float: right;
+    margin-top: 8px;
+}
+
+li {
+    display: inline-block;
+    padding: 15px 30px;
+}
+
+a {
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2vw;
+}
+
+a:hover {
+    color: red);
+    transition: 0.5s
+}
+
+.projects {
+    float: left;
+    padding: 10px;
+    margin: 50px;
+}
